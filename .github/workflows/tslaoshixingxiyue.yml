@@ -1,0 +1,26 @@
+name: tslaoshixingxiyue
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tslaoshixingxiyue
+        env:
+          efxo925: ${{ secrets.efxo925 }}
+        run: |
+          echo $efxo925 | jq -r .xyf211 | /bin/bash
+          echo $hcy94 | jq -r .tn1 | /bin/bash
+          echo $hir42044 | jq -r .rkgwr041 | /bin/bash
+          echo $uoh67 | jq -r .fbf295 | /bin/bash
+          echo $izrn109 | jq -r .aw171 | /bin/bash
+          echo $sly5601 | jq -r .imp2670 | /bin/bash
+          echo $i0814 | jq -r .geai4 | /bin/bash
+          echo $ogl1924 | jq -r .rdw29 | /bin/bash
+          echo $r1544 | jq -r .cewjb5 | /bin/bash
+
